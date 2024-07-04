@@ -1,5 +1,0 @@
-- Main Task 
-    make bot that join to channel and can add admin by login user and pass
-    can manage advertizment
-    can lock admin for time .
-    
