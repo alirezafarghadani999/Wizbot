@@ -1,10 +1,16 @@
 class PATH:
-    def __init__(self) -> None:
-        self.DataBase = "./public/DataBase/"
-        
-        PATH = {
-            "User_DataBase": self.DataBase + "",
-            "Channel_Database": self.DataBase + "", 
-        }
+    _DataBase = "./public/DataBase/"
+    
+    PATHS = {
+        "User_DataBase": _DataBase + "User.db",
+        "Channel_Database": _DataBase + "Channel.db", 
+    }
 
-        return PATH
+    FOLDERTREE = {
+        "public":{
+            "DataBase"
+            }
+    }
+
+    def __init__(self) -> None:
+        pass
